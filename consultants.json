@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "qualifications": "MBA, CPA",
+        "designation": "Senior Consultant",
+        "company": "ABC Finance Ltd.",
+        "topic": "Financial Risk Management",
+        "description": "Financial Risk Management (FRM) consultancy offers specialized expertise to organizations in identifying, assessing, and mitigating risks that could threaten their financial stability and performance. Consultants in this field assist businesses in navigating complex financial environments by developing strategies to minimize exposure to market, credit, liquidity, operational, and regulatory risks. They conduct thorough risk assessments, design tailored mitigation plans such as hedging and diversification, and ensure compliance with financial regulations like Basel III and IFRS 9 to avoid legal and reputational repercussions. Additionally, consultants perform stress testing and scenario analysis to evaluate an organization’s resilience under adverse conditions, while integrating advanced technologies like AI and machine learning to enhance risk monitoring and decision-making. They also provide training and capacity-building programs to foster a risk-aware culture within organizations. Operating across industries such as banking, insurance, investment, and corporate finance, FRM consultants play a critical role in safeguarding assets, optimizing returns, and ensuring long-term sustainability in today’s volatile economic landscape. Their proactive approach to risk management is essential for organizations aiming to thrive amid uncertainty.",
+        "image": "img/consultant1.jpg",
+        "video": "https://www.youtube.com/embed/example"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "qualifications": "LLM, Corporate Law",
+        "designation": "Legal Advisor",
+        "company": "XYZ Law Firm",
+        "topic": "Corporate Compliance",
+        "description": "Helping businesses stay compliant with corporate laws.",
+        "image": "img/consultant2.jpg",
+        "video": "https://www.youtube.com/embed/example2"
+    }
+]
