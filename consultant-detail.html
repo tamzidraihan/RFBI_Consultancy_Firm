@@ -38,6 +38,7 @@
                 <a href="index.html" class="nav-item nav-link">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="consultants.html" class="nav-item nav-link active">Consultants</a>
                 <a href="blog.html" class="nav-item nav-link">Blog</a>
                 <a href="case-studies.html" class="nav-item nav-link">Case Studies</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
@@ -46,27 +47,70 @@
     </nav>
     <!-- Navbar End -->
 
-    <section class="container my-5">
+    <!-- Page Header Start -->
+    <div class="container-fluid bg-dark p-5">
         <div class="row">
-            <div class="col-md-4">
-                <img id="consultant-image" class="img-fluid rounded" alt="Consultant Image">
-            </div>
-            <div class="col-md-8">
-                <h2 id="consultant-name"></h2>
-                <p><strong>Qualifications:</strong> <span id="consultant-qualifications"></span></p>
-                <p><strong>Firm Designation:</strong> <span id="consultant-designation"></span></p>
-                <p><strong>Current Company:</strong> <span id="consultant-company"></span></p>
-                <p><strong>Latest Consultancy Topic:</strong> <span id="consultant-topic"></span></p>
-                <p><strong>Latest Consultancy Description:</strong> <span id="consultant-description"></span></p>
-    
-                <h5>Consulting Video</h5>
-                <iframe id="consultant-video" width="100%" height="315" frameborder="0" allowfullscreen></iframe>
-    
-                <a href="https://form.jotform.com/250508313871454" target="_blank" class="btn btn-primary">Book an Appointment</a>
-
+            <div class="col-12 text-center">
+                <h1 class="display-4 text-white">Consultant Profile</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html" class="text-primary">Home</a></li>
+                        <li class="breadcrumb-item"><a href="consultants.html" class="text-primary">Consultants</a></li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">Profile</li>
+                    </ol>
+                </nav>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Consultant Profile Section Start -->
+    <div class="container-fluid py-6 px-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img id="consultant-image" class="card-img-top" alt="Consultant Image">
+                    <div class="card-body text-center">
+                        <h4 id="consultant-name" class="card-title"></h4>
+                        <p id="consultant-designation" class="text-muted"></p>
+                        <p id="consultant-company" class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title mb-4">Consultant Information</h3>
+                        <div class="row mb-3">
+                            <div class="col-sm-3"><strong>Qualifications:</strong></div>
+                            <div class="col-sm-9"><span id="consultant-qualifications"></span></div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-3"><strong>Latest Topic:</strong></div>
+                            <div class="col-sm-9"><span id="consultant-topic"></span></div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-sm-3"><strong>Description:</strong></div>
+                            <div class="col-sm-9"><span id="consultant-description"></span></div>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h5>Consulting Video</h5>
+                            <div class="ratio ratio-16x9">
+                                <iframe id="consultant-video" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="https://form.jotform.com/250508313871454" target="_blank" class="btn btn-primary btn-lg">Book an Appointment</a>
+                            <a href="consultants.html" class="btn btn-outline-primary btn-lg ms-2">Back to Consultants</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Consultant Profile Section End -->
     
 
     <script src="js/consultant.js"></script>
